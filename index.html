@@ -1,25 +1,183 @@
-<html>
-    <head>
-        <title>DBZ David B&aacute;ez</title>
-        <link rel="stylesheet" href="css/estilos.css" />
-    </head>
-    <body>
-        <div id="container">
-            <div id="cabecera">
-                <img id="logo" src="https://i.imgur.com/th7h7q3.jpg" />     
-                <span id="tagline">David Baez -- GITHUB</span>
-            </div>
-            <div id="post">
-                <h1>Informaci&oacute;n profesional</h1>
-                <p>Ingeniero de sistemas colombiano.....</p>
-                <p>Esta es mi mascota.....</p>
-                <p><img src="https://i.imgur.com/yEF0mj7.jpg" width="100%" /></p>
-                <p>David B&aacute;ez</p>
-                <p>Gracias</p>
-            </div>
-            <div id="footer">
-                DBZ -- DBZ -- DBZ -- DBZ -- DBZ -- DBZ -- DBZ -- DBZ -- DBZ -- DBZ 
-            </div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Baez - Portafolio DBZ</title>
+    <link rel="icon" type="image/png" href="../DesarrolloWebOnline/icons/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+  <!-- <div class="flexbox">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div> -->
+    <header class="header">
+        <div class="container">
+          <div>
+            <figure class="logo">
+              <img src="../DesarrolloWebOnline/icons/dbz02.png" alt="Logo de http://dbz.com" width="70px" height="70px"><strong class="logostrong">David Báez Sánchez</strong> 
+            </figure>
+          </div>
+          <!-- menu de navegacion -->
+          <div>
+            <nav class="menu">
+              <ol>
+                <li>
+                  <a class="link" href="#portafolio">Logros </a>
+                </li>
+                <li>
+                  <a class="link" href="#Cursos">Formación</a>
+                </li>
+                <li>
+                  <a class="link" href="#contacto">En que te puedo ayudar..</a>
+                </li>
+              </ol>
+            </nav>
+          </div>
         </div>
+      </header>
+      <section class="hero">
+        <div class="container">
+          <h1>
+              ¡Hola! soy <strong> David Eduardo Báez Sánchez</strong> <br>
+              Ingeniero de sistemas apasionado por la <br><strong>Infraestructura Tecnológica  y las Bases de Datos.</strong>
+          </h1>
+          <img class="hero-image" src="../DesarrolloWebOnline/icons/dbz.jpg" alt="Imagen de la familia" width="500" height="300"> 
+        </div>
+      </section>
+      <section id="portafolio" class="portfolio">
+        <div class="container">
+          <h2>Logros (Proyectos destacados)</h2>
+          <article class="project">
+              <div class="project-details">
+                <h3 class="project-title">METODOLOGIAS AGILES</h3>
+                <h6 class="project-work">Software Medical.</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> Agosto  - 2018</small></p>
+                <p class="project-url"><small><strong>Empresa</strong> <a href="https://www.esaludecopetrol.com/autenticacion/logon.aspx" target="_blank">Visita Medical Heon.com.co</a></small></p>
+                <p class="project-description">Desarrollo, implementación y operación del software médico para el cliente. Implementación de metodología ágil para poder cumplir con los tiempos pactados con el cliente. </p>
+              </div>
+              <figure class="project-imageContainer">
+                <img class="project-image" src="../DesarrolloWebOnline/icons/mediacla_agil.jpg" width="500" height="300" alt="">
+              </figure>
+              <!-- <p>Trabajo en heon</p>
+              <a href="https://www.heon.com.co" target='_blank'>HeOn</a> -->
+          </article>
+        </div>
+        <div class="container">
+          <article class="project">
+              <div class="project-details">
+                <h3 class="project-title">MIGRACION SOFTWARE</h3>
+                <h6 class="project-work">Windows 2016 - Sql Server 2016</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> Marzo  - 2018 </small></p>
+                <p class="project-url"><small><strong>Empresa</strong> <a href="https://www.esaludecopetrol.com/autenticacion/logon.aspx" target="_blank">Visita Medical Heon.com.co</a></small></p>
+                <p class="project-description">Migración de proveedor de centro de datos para el proyecto Ecopetrol y migración del sistema operativo de Windows 2012 a Windows 2016 y bases de datos a SQL Server 2012 a SQL Server a 2016.</p>
+              </div>
+              <figure class="project-imageContainer">
+                <img class="project-image" src="../DesarrolloWebOnline/icons/migracion.jpg" width="500" height="300" alt="">
+              </figure>
+              <!-- <p>Trabajo en heon</p>
+              <a href="https://www.heon.com.co" target='_blank'>HeOn</a> -->
+          </article>
+        </div>
+        <div class="container">
+          <article class="project">
+              <div class="project-details">
+                <h3 class="project-title">MIGRACION DE DATACENTER</h3>
+                <h6 class="project-work">Datacenter propio a proveedor tecnologico.</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> Diciembre  - 2016</small></p>
+                <p class="project-url"><small><strong>Empresa</strong> <a href="https://www.heon.com.co" target="_blank">Visita Heon.com.co</a></small></p>
+                <p class="project-description">Migración del centro de datos principal de Heon a proveedor de centro de cómputo especializado. Movimiento de más de 80 servidores físicos, 200 servidores virtuales, storage con 300 teras, seguridad perimetral, 700 canales de comunicaciones</p>
+              </div>
+              <figure class="project-imageContainer">
+                <img class="project-image" src="../DesarrolloWebOnline/icons/data01.jpg" width="500" height="300" alt="">
+              </figure>
+              <!-- <p>Trabajo en heon</p>
+              <a href="https://www.heon.com.co" target='_blank'>HeOn</a> -->
+          </article>
+        </div>
+      </section>
+      <div class="container">
+        <h2 class="course-list-title">Sección Cursos</h2>
+      </div>
+      <section id ="curso" class="course-list">
+        <div class="container">
+            <article class="course">
+              <figure class="course-imageContainer">
+                  <img class="course-image" src="../DesarrolloWebOnline/icons/dbz2.jpg" alt="" width="500">
+              </figure>
+              <div class="course-details">
+                <h3 class="course-title">MBA con enfasis con gestion de proyectos</h3>
+                <p class="course-description">Maestria sibre manejo de empresas y enfasis en adminitaciond e proyectos.</p>
+                <a class="course-url">ver maestria</a>
+              </div>
+            </article>
+              <article class="course">
+                <figure class="course-imageContainer">
+                    <img class="course-image" src="../DesarrolloWebOnline/icons/dbz4.jpg" alt="" width="500">
+                </figure>
+                <div class="course-details">
+                  <h3 class="course-title">Pregrado</h3>
+                  <p class="course-description">Ingeniero de Sistemas</p>
+                  <a class="course-url">ver universidad</a>
+                </div>
+            </article>
+          </article>
+          <article class="course">
+            <figure class="course-imageContainer">
+                <img class="course-image" src="../DesarrolloWebOnline/icons/dbz5.jpg" alt="" width="500">
+            </figure>
+            <div class="course-details">
+              <h3 class="course-title">Cursos Platzi</h3>
+              <p class="course-description">Varios</p>
+              <a class="course-url">ver platzi</a>
+            </div>
+        </article>
+        <article class="course">
+            <figure class="course-imageContainer">
+                <img class="course-image" src="../DesarrolloWebOnline/icons/dbz1.jpg" alt="" width="500">
+            </figure>
+            <div class="course-details">
+              <h3 class="course-title">Itil</h3>
+              <p class="course-description">Itli</p>
+              <a class="course-url">ver Itil</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="contacto" class="contact">
+        <div class="container">
+          <form action="/contacto/" class="form-email">
+            <h3>Enviame tus comentarios</h3>
+            <input type="text" placeholder="Dejame tu email..." id="email">
+            <button>Enviar</button>
+          </form>
+          <div  class="social">
+            <a href="" class="social-link twitter"></a>
+            <a href="" class="social-link facebook"></a>
+            <a href="https://github.com/DavidBaezDbz" class="social-link github"></a>
+            <a href="https://gitlab.com/dbz-gitlab" class="social-link gitlab"></a>
+          </div>
+        </div>
+      </section>
+      <!-- <section>sección contacto</section> -->
+      <footer class="footer">
+        <div class="container">
+          <div>
+            <p>
+            <img src="./icons/dbz02.png" alt=""  width="70px" height="70px" > David Eduardo Baez Sanchez
+          </p>
+        </div>
+          <div>
+            <p>
+            Designed By DBZ <\3 <a href ="https://www.dbzit.com.co">  https://www.dbzit.com.co</a>
+          </p>
+        </div>
+      </div>
+      </footer>
     </body>
-</html>
+  </html>
