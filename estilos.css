@@ -1,0 +1,327 @@
+/*
+reglas
+selectores
+declaraciones
+propiedades
+valores
+*/
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+}
+h1,
+h2,
+h2,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal; 
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0;
+    /* text-transform: uppercase;
+    text-decoration: dashed; */
+}
+h1 strong {
+    color:#616f39;
+}
+
+h2 {
+    color:  #3e432e;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.header img {
+    vertical-align: middle;
+}
+.logostrong {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    align-items: center;
+    align-self: center;
+}
+
+.header ol {
+    display: flex;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu { /* .menu hereda de .header */
+    height: inherit;
+}
+
+  .header ol { /* .header ol hereda de .menu */
+    display: flex;
+    height: inherit;
+}
+
+  .header ol li { /* .header ol li hereda de .header ol */
+    height: inherit;
+}
+
+  .header a { /* .header a hereda de .header ol li */
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+figure {
+    margin: 0;
+}
+.project-details{
+    width: 500px;
+}
+.portfolio {
+    background: #fafafa;
+    padding:  20px;
+}
+
+.project {
+    border: 1px solid #a7d129;
+    border-radius: 10px;
+    /* margin: 10px; */
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.project-image {
+    width: 480px;
+    height: 300px;
+    object-fit: cover
+}
+.project-work {
+    margin: 10px 0;
+}
+
+.project-date {
+    margin: 10px 0;
+}
+
+.project-url {
+    margin: 10px 0;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom:  10px;
+    color: #616f39;
+}
+
+.project-imageContainer {
+    width: 500px;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.course-list-title {
+    margin-left: 20px;
+}
+.course {
+    border: 1px solid white;
+    margin: 10px;
+    width: 480px;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #eff3f7;
+}
+.course-image {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+    color: #00FF00;
+}
+
+.course-details {
+    margin: 20px 40px;
+    background-color: whitesmoke;
+    margin-top: -40px ;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.course-description {
+    text-align: left;
+}
+
+.course-url {
+    border:  1px solid #a7d129;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color:#a7d129;
+}
+
+.contact {
+    background-color: #3e432e;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    /* border: 1px solid red; */
+}
+
+.social-link {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid white; */
+    display: inline-block;
+    background-size: 50px 50px;
+    margin:  0 10px;
+}
+
+.social-link.twitter {
+    background-image: url(../icons/twitter.svg);
+}
+.social-link.facebook {
+    background-image: url(../icons/facebook.svg);
+}
+.social-link.github {
+    background-image: url(../icons/github.svg);
+}
+.social-link.gitlab {
+    background-image: url(../icons/gitlab.svg);
+}
+
+.form-email input{
+    border-color: a7d129;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 10px 20px 10px 25px;
+    background-image: url(../icons/envelope.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center ;
+    background-position-x: 5px;
+}
+
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+    width: 100px;
+    margin-top: 10px;
+    /* margin: 10px auto 0 ; */
+}
+
+.form-email h3 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.container {
+    /* border: 1px solid red; */
+    width: 85%;
+    margin:  0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.hero {
+    height: 300px;
+    /* background-image: url('../icons/dbz1.jpg'); */
+    background-color: #1b2127;
+    /* background-size: 500px 300px; */
+    /* background-repeat: no-repeat;
+    background-position-x: right; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-image {
+    object-fit: cover;
+}
+
+
+.flexbox {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border: 1px solid red;
+    flex-shrink: 0;
+}
+
+.footer {
+    color: white;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: whitesmoke;
+}
+
+h8 {
+    color: #000000;
+}
